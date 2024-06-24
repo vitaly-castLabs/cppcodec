@@ -67,7 +67,6 @@ set(PUBLIC_HEADERS
 
 add_library(cppcodec INTERFACE)
 target_sources(cppcodec INTERFACE ${PUBLIC_HEADERS})
-set_target_properties(cppcodec PROPERTIES LINKER_LANGUAGE CXX)
 
 target_include_directories(
     cppcodec
